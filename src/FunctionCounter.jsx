@@ -25,13 +25,13 @@ return(
           onClick={decrement}
           className="decrement"
         >
-          -
+          -Minus
         </button>
         <button
           onClick={increment}
           className="increment"
         >
-          +
+          +Plus
         </button>
       </div>
       {message && <p className="message">{message}</p>}
