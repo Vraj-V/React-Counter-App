@@ -1,0 +1,79 @@
+/* Main container */
+.main {
+  background: #ffffff;
+  padding: 20px;
+  width: 250px;
+  margin: 100px auto;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: transform 0.2s ease-in-out;
+}
+
+.main:hover {
+  transform: translateY(-4px);
+}
+
+/* Heading */
+.title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #2563eb; /* Nice blue shade */
+}
+
+/* Counter Value */
+.count-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 10px 0 20px 0;
+  color: #333;
+}
+
+/* Button container */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Buttons */
+button {
+  border: none;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-weight: bold;
+  color: #fff;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.increment {
+  background-color: #16a34a; /* green */
+}
+
+.increment:hover {
+  background-color: #15803d;
+}
+
+.decrement {
+  background-color: #dc2626; /* red */
+}
+
+.decrement:hover {
+  background-color: #b91c1c;
+}
+.message{
+  color: #dc2626; /* red */
+  margin-top: 10px;
+  font-weight: 600;
+}
+hr{
+  color: #333;
+}

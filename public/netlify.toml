@@ -1,0 +1,8 @@
+<redirects>
+  <redirect>
+	<from>/*</from>
+	<to>/index.html</to>
+	<status>200</status>
+  </redirect>
+</redirects>
+
